@@ -1,0 +1,15 @@
+CREATE TABLE evento (
+	codigo BIGINT PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(50) NOT NULL,
+	local VARCHAR(50) NOT NULL,
+	data VARCHAR(20) NOT NULL,
+	horario VARCHAR(20) NOT NULL
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+	
+	
+
+	
+	
+	
+	
+	
